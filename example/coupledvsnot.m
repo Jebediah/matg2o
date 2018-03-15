@@ -37,9 +37,9 @@ hold on;
 dT = 1;
 cutoff = limit;
 
-motion_inf = 100000;
-cv_inf = 100000000;
-del_inf = 10;
+motion_inf = 1000;
+cv_inf = 1000;
+del_inf = 100;
 
 for i = 1:limit
     P_pos.value = pos_corr(i);
