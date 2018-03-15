@@ -29,7 +29,7 @@ NodeArray{2,1}='IMUbias'; NodeArray{2,2}='b0';
 % Graph.Nodes.IMUbias.Values.b0 = Measurement.value.bias;
 
 
-% 
+%
 Measure_translation.inf=eye(6)*1e5;
 T0= RobotState{1, 1}.pose; R0=T0(1:3,1:3); p0=T0(1:3,4);
 T1= RobotState{1, 2}.pose; R1=T1(1:3,1:3); p1=T1(1:3,4);

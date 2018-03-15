@@ -19,6 +19,8 @@ switch NodeTypeName
         NodeValue=zeros(2,1); flag=1;
     case 'ParallaxPoint'
         NodeValue=[0;0;1; 0]; flag=1;
+    case 'Scalar'
+        NodeValue=0; flag=1;
 end
 
 if flag==0

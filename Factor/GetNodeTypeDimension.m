@@ -19,6 +19,8 @@ switch NodeTypeName
         dimension=6;
     case 'ParallaxPoint'
         dimension=3;
+    case 'Scalar'
+        dimension=1;
 end
 
 

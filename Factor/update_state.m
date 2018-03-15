@@ -29,6 +29,9 @@ switch NodeTypeName
         NodeValue=NodeValue+increment ;         flag=1;
     case 'Velocity3'
         NodeValue=NodeValue+increment ;           flag=1;
+        
+    case 'Scalar'
+        NodeValue=NodeValue+increment ; flag=1;
 
     case 'IMUbias'
         NodeValue=NodeValue+increment ;        flag=1;

@@ -47,7 +47,15 @@ switch EdgeTypeName
     case 'VisionTestPBA_MainAnchor_Factor'     
         dimension=3;
     case 'VisionTestPBA_AssAnchor_Factor' 
-        dimension=3;    
+        dimension=3;
+    case 'PriorVector_Factor'
+        dimension=1;
+    case 'OdomFactor'
+        dimension=1;
+    case 'ConstantScalar'
+        dimension=1;
+    case 'LidarPrior'
+        dimension=1;
 end
 
 
